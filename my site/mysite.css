@@ -8,3 +8,23 @@
     background-color: aqua;
     display: flex;
 }
+.right{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-image: url('https://p.bigstockphoto.com/eIdTXLbqQilMs9xbjvcs_bigstock-Aerial-View-Of-Sandy-Beach-Wit-256330393.jpg');
+}
+.poop{
+    height: 50%;
+    width: 50%;
+    background-color: purple;
+    background-image: url('https://thumbs.dreamstime.com/b/sand-under-sea-abstract-marine-design-template-blue-deep-ocean-180905891.jpg');
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+}
