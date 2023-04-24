@@ -18,8 +18,8 @@
 .poop{
     height: 50%;
     width: 50%;
-    background-color: purple;
-    background-image: url('https://thumbs.dreamstime.com/b/sand-under-sea-abstract-marine-design-template-blue-deep-ocean-180905891.jpg');
+    background-color: cyan;
+   
     display:flex;
     
     justify-content: center;
