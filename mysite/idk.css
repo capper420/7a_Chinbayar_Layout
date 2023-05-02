@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     flex-direction: column;
-
+    background-size: cover;
+    background-image: url(https://thumbs.dreamstime.com/b/engineer-working-pc-screen-showing-cad-software-d-components-headset-construction-metalic-architects-using-stylus-pen-216774981.jpg);
 }
 .card{
     width: 60%;
@@ -23,4 +23,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+}
+.halfcard{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
