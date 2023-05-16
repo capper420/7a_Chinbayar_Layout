@@ -1,0 +1,82 @@
+*{
+    margin:0;
+}
+div{
+    border: 1px solid;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:30%;
+    height: 60vh;
+    background-color: gold;
+}
+.profile{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 60px 46px 3px rgba(0,0,0,0.42);
+    -webkit-box-shadow: -2px 60px 46px 3px rgba(0,0,0,0.42);
+    -moz-box-shadow: -2px 60px 46px 3px rgba(0,0,0,0.42);
+}
+.circle i{
+    font-size: 80px;
+}
+.icons{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(110, 110, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons i{
+    font-size: 40px;
+
+}
+.box{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(0, 255, 221);
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(47, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.right , .left p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: violet;
+}
