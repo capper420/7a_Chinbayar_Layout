@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+    width: 40%;
+    height: 50%;
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mathingcard{
+    width: 100%;
+    height:70%;
+    background-color: aqua;
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.resultcard{
+    width: 100%;
+    height:30%;
+    background-color: aquamarine;
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+
+}
