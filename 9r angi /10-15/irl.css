@@ -7,23 +7,20 @@
     width: 100%;
     background-color:blueviolet;
     display:flex ;
-    justify-content: ;
+    justify-content: center ;
+    align-items: center;
 }
 .form{
-    height: 100%;
+    height: 90%;
     width: 60%;
     background-color: blueviolet;
 }
 .type{
-    height: 100%;
-    width:20%;
+    height: 90%;
+    width:10%;
     background-color: blueviolet;
 }
-.detail{
-    height: 100%;
-    width: 20%;
-    background-color: blueviolet;
-}
+
 h3{
     color:white;
 }
